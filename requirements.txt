@@ -1,0 +1,6 @@
+mlflow
+feast
+pandas
+scikit-learn
+numpy
+python-dotenv

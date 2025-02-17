@@ -1,0 +1,66 @@
+# Byte-compiled / virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Virtual environment
+.env/
+.venv/
+smp/
+
+# Data and models
+data/
+*.parquet
+*.csv
+*.db
+*.h5
+*.pkl
+
+# MLflow artifacts
+mlruns/
+mlartifacts/
+
+# Feast Registry and stores
+*.db
+feature_store.yaml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+dist/
+build/
+*.egg
+MANIFEST
+
+# Logs and outputs
+logs/
+*.log
+nohup.out
+
+# Test coverage
+htmlcov/
+.coverage
+*.cover
+.pytest_cache/
+
+# Pip environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Local .env files
+.env
+.env.local
+
